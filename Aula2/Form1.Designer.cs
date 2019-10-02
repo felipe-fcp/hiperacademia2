@@ -130,6 +130,7 @@
             this.btnCalcular.TabIndex = 10;
             this.btnCalcular.Text = "Calcular IMC";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.BtnCalcular_Click);
             // 
             // Form1
             // 
